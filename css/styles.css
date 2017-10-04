@@ -7,8 +7,8 @@ h1	{
 	left: 0;
 	right: 0;
 	text-align: center;
-
 	bottom: 50%;
+	
 }
 
 form {
@@ -33,7 +33,7 @@ form {
 	background-color: black;
 	color: white;
 }
-#searchButt {
+.searchButt {
 
 	border: none;
 	border-bottom: 1px solid black;
@@ -44,11 +44,10 @@ form {
 	transition: 0.5s;
 	-webkit-transition: 0.5s;
 	cursor: pointer;
-
-
 }
 
-#searchButt:hover	{
+
+.searchButt:hover	{
 	background-color: white;
 	color: black;
 
@@ -57,7 +56,7 @@ form {
 
 
 ul {
-	top: 100px;
+	top: 170px;
 	width: 600px;
 	margin: 0 auto;
 	list-style-type: none;
